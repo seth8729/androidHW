@@ -51,13 +51,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
         injectInstrumentation(InstrumentationRegistry.getInstrumentation());
 
         mMainActivity = (MainActivity) getActivity();
-        mSpnSex = (Spinner) mMainActivity.findViewById(R.id.spnSex);
-//        mRadGrp = (RadioGroup) mMainActivity.findViewById(R.id.radGrpAge);
-        mRadBtnAgeRange1 = (RadioButton) mMainActivity.findViewById(R.id.radBtnAgeRange1);
-        mRadBtnAgeRange2 = (RadioButton) mMainActivity.findViewById(R.id.radBtnAgeRange2);
-        mRadBtnAgeRange3 = (RadioButton) mMainActivity.findViewById(R.id.radBtnAgeRange3);
-//        mTxtNumFamily = (TextView) mMainActivity.findViewById(R.id.txtNumFamily);
-        mNumPkrFamily = (NumberPicker) mMainActivity.findViewById(R.id.numPkrFamply);
+
         mBtnOK = (Button) mMainActivity.findViewById(R.id.btnOK);
         mTxtSug = (TextView) mMainActivity.findViewById(R.id.txtSug);
     }
