@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">作業四之一: 許邦毅</string>
+    <string name="sex">性別</string>
+    <string name="age">年齡</string>
+    <string name="habit">興趣</string>
+    <string name="btnOK">確定</string>
+    <string name="suggestion">建議:</string>
+    <string name="habbit">興趣:</string>
+    <string-array name="sex_list1">
+        <item>小於30歲</item>
+        <item>30~40歲</item>
+        <item>大於40歲</item>
+    </string-array>
+    <string-array name="sex_list2">
+        <item>小於28歲</item>
+        <item>28~35歲</item>
+        <item>大於35歲</item>
+    </string-array>
+    <string name="music">音樂</string>
+    <string name="sing">唱歌</string>
+    <string name="dance">跳舞</string>
+    <string name="travel">旅行</string>
+    <string name="reading">閱讀</string>
+    <string name="writing">寫作</string>
+    <string name="climbing">爬山</string>
+    <string name="swim">游泳</string>
+    <string name="eating">美食</string>
+    <string name="drawing">繪畫</string>
+    <string name="sug_not_hurry">還不急</string>
+    <string name="sug_find_couple">開始找對象</string>
+    <string name="sug_get_married">趕快結婚</string>
+    <string name="spn_sex_list_promt">請選擇性別</string>
+</resources>
