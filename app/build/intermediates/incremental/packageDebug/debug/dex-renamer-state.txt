@@ -1,0 +1,4 @@
+#Mon Apr 09 22:31:22 CST 2018
+base.0=C\:\\Users\\Ash\\Desktop\\SampleCode-Unit018\\Unit018-PaperScissorsStoneGame\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
