@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvName_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginTop="8sp"
+        android:layout_weight="1"
+        android:text="@string/text_name"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtName_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/text_name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txvPhoneNumber_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:text="@string/text_phone_number"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtPhoneNumber_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/text_phone_number"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/txvPhoneType_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:paddingLeft="8sp"
+        android:text="@string/text_phone_number"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinPhoneType_Modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginTop="4sp"
+        android:layout_weight="1"
+        android:background="@color/normal"
+        android:entries="@array/phone_type"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp" />
+
+</LinearLayout>

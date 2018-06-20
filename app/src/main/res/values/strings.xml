@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">作業11: 許邦毅</string>
+
+    <string name="text_name">Name</string>
+    <string name="text_phone_number">Phone Number</string>
+    <string name="text_phone_number_type">The Type of Phone Number</string>
+    <array name="phone_type">
+        <item>Mobile</item>
+        <item>Home</item>
+        <item>Office</item>
+    </array>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_submit">加入新的內容</string>
+
+    <string name="text_search_name">Search by name</string>
+
+</resources>
